@@ -19,7 +19,8 @@ console.log('userElement')
 const firstName = prompt('Dimmi il tuo nome', 'Francesco')
 const lastName = prompt('Dimmi il tuo cognome', 'Minichiello')
 const favouriteColor = prompt('Dimmi il tuo colore preferito', 'Verde')
-console.log(firstName, lastName, favouriteColor);
+const suffix = '21'
+console.log(firstName, lastName, favouriteColor, suffix);
 
 // # Fase di produzione output (risultato)
-userElement.innerHTML = firstName + lastName + favouriteColor + '21';
+userElement.innerHTML = firstName + lastName + favouriteColor + suffix;
